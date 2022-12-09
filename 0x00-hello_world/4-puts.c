@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /**
  * main -My first code line using puts
  *
