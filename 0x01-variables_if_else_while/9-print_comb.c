@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - starting point
  *
  * Return: 0
- *
  */
+
 int main(void)
 {
 	int n;
