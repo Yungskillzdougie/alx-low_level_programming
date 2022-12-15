@@ -18,6 +18,5 @@ int main(void)
 	_puthcar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
