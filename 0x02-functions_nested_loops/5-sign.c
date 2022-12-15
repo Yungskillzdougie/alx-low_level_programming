@@ -6,7 +6,7 @@
  * Return: 1 for positive num, -1 for negative num or zero for anything else
  */
 
-it print_sign(int n)
+int print_sign(int n)
 
 {
 	if (n > 0)
@@ -14,7 +14,7 @@ it print_sign(int n)
 		_putchar(43);
 		return (1);
 	}
-	eklse if (n < 0)
+	else if (n < 0)
 	{
 		_putchar(45);
 		return (-1);
