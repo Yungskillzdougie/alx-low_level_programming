@@ -9,7 +9,7 @@
  *
  */
 
-void print_square(sint size)
+void print_square(int size)
 
 {
 
