@@ -1,29 +1,32 @@
 #include "main.h"
 
 /**
- * main - consist of bytes
+ * _strspn - search a string for a set of bytes
+ * @s: source string
+ * @accept: accept string
  *
- * Return: 0
+ * Return: number of bytes in the init segment
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;
+	unsigned int a = 0, b, t = 0;
 
-	while (*s)
-
+	while (accept[a])
 	{
-		char *a = accept;
+		b = 0;
 
-		while (*a && *a != *s)
-			a++;
-		if (!*a)
-			break;
+		while (s[b] != 32)
+		{
+			if (accept[a] == s[b])
+			{
+				t++;
+			}
 
-		count++;
-		s++;
+			b++;
+		}
+
+		a++;
 	}
 
-	return (count);
-
+	return (t);
 }
