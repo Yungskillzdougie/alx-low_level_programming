@@ -1,21 +1,10 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 
-/**
- * _abs - absolute value of int
- *
- * @a: as int
- *
- * Return: abs value
- */
-int _abs(int a)
+int _abs(int n)
 {
-
-	if (a >= 0)
-	{
-		return (a);
-	}
-	else
-	{
-		return (a * -1);
-	}
+	return abs(n);
 }
